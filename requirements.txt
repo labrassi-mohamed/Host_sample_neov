@@ -1,0 +1,7 @@
+langchain-google-genai==2.0.9 
+langchain_community 
+langchain 
+langchain_chroma 
+dotenv
+flask
+flask_cors
