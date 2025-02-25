@@ -14,7 +14,7 @@ from langchain_core.prompts import ChatPromptTemplate
 # Load environment variables
 load_dotenv()
 if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyCSU9sqE3nSAzrPpomPjVU2xm9MsWMdu0Y"
+    os.environ["GOOGLE_API_KEY"] = os.getenv("GEMINI_API_TOKEN")
 
 # Flask App
 app = Flask(__name__)
