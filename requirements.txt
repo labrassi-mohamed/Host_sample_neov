@@ -6,3 +6,4 @@ dotenv
 flask
 flask_cors
 pypdf
+gunicorn==20.1.0
